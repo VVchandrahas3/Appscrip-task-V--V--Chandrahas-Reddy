@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8 border-b border-primary-foreground/20">
           <div>
             <h3 className="text-lg font-semibold mb-4">BE THE FIRST TO KNOW</h3>
-            <p className="text-sm mb-4 opacity-80">Sign up for updates from mettā muse.</p>
+            <p className="text-sm mb-4 opacity-80">Sign up for updates from RightFit.</p>
             <div className="flex gap-2">
               <Input
                 type="email"
@@ -26,22 +26,22 @@ const Footer = () => {
 
           <div>
             <h3 className="text-lg font-semibold mb-4">CONTACT US</h3>
-            <p className="text-sm mb-2">+44 221 133 5360</p>
-            <p className="text-sm mb-4">customercare@mettamuse.com</p>
+            <p className="text-sm mb-2">+91 1234567899</p>
+            <p className="text-sm mb-4">customercare@rightfit.com</p>
             
             <h4 className="text-sm font-semibold mb-2">CURRENCY</h4>
-            <Select defaultValue="usd">
+            <Select defaultValue="inr">
               <SelectTrigger className="w-[140px] bg-primary-foreground text-primary">
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
+                <SelectItem value="inr">🇮🇳 INR</SelectItem>
                 <SelectItem value="usd">🇺🇸 USD</SelectItem>
                 <SelectItem value="eur">🇪🇺 EUR</SelectItem>
-                <SelectItem value="gbp">🇬🇧 GBP</SelectItem>
               </SelectContent>
             </Select>
             <p className="text-xs mt-2 opacity-60">
-              Transactions will be completed in Euros and a currency reference is available on hover.
+              All transactions will be completed in Indian Rupees.
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ const Footer = () => {
         {/* Links Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">mettā muse</h3>
+            <h3 className="text-lg font-semibold mb-4">RightFit</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="#" className="hover:underline">About Us</a></li>
               <li><a href="#" className="hover:underline">Stories</a></li>
@@ -84,7 +84,7 @@ const Footer = () => {
               </Button>
             </div>
 
-            <h4 className="text-sm font-semibold mb-3">mettā muse ACCEPTS</h4>
+            <h4 className="text-sm font-semibold mb-3">RightFit ACCEPTS</h4>
             <div className="flex flex-wrap gap-2">
               {["Visa", "Mastercard", "PayPal", "Amex", "Apple Pay", "Shop Pay"].map((payment) => (
                 <div
@@ -100,7 +100,8 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="pt-8 border-t border-primary-foreground/20 text-center text-sm opacity-60">
-          Copyright © 2023 mettamuse. All rights reserved.
+          <p>Copyright © 2023 RightFit. All rights reserved.</p>
+          <p className="mt-1">CEO: V V Chandrahas Reddy</p>
         </div>
       </div>
     </footer>
