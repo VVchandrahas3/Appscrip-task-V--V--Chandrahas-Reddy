@@ -86,21 +86,31 @@ const Footer = () => {
 
             <h4 className="text-sm font-semibold mb-3">RightFit ACCEPTS</h4>
             <div className="flex flex-wrap gap-2">
-              {["Visa", "Mastercard", "PayPal", "Amex", "Apple Pay", "Shop Pay"].map((payment) => (
-                <div
-                  key={payment}
-                  className="px-2 py-1 bg-primary-foreground text-primary text-xs font-medium rounded"
-                >
-                  {payment}
-                </div>
-              ))}
+              <div className="px-2 py-1 bg-primary-foreground text-primary text-xs font-medium rounded">
+                Visa
+              </div>
+              <div className="px-2 py-1 bg-primary-foreground text-primary text-xs font-medium rounded">
+                Mastercard
+              </div>
+              <div className="px-2 py-1 bg-primary-foreground text-primary text-xs font-medium rounded">
+                PayPal
+              </div>
+              <div className="px-2 py-1 bg-primary-foreground text-primary text-xs font-medium rounded">
+                Amex
+              </div>
+              <div className="px-2 py-1 bg-primary-foreground text-primary text-xs font-medium rounded">
+                Apple Pay
+              </div>
+              <div className="px-2 py-1 bg-primary-foreground text-primary text-xs font-medium rounded">
+                Shop Pay
+              </div>
             </div>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="pt-8 border-t border-primary-foreground/20 text-center text-sm opacity-60">
-          <p>Copyright © 2023 RightFit. All rights reserved.</p>
+          <p>Copyright © 2025 RightFit. All rights reserved.</p>
           <p className="mt-1">CEO: V V Chandrahas Reddy</p>
         </div>
       </div>
