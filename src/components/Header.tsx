@@ -1,4 +1,5 @@
 import { Search, Heart, ShoppingBag, User, Menu } from "lucide-react";
+import shopifyLogo from "@/assets/shopify-logo.png";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import {
@@ -40,8 +41,8 @@ const Header = () => {
               </SheetContent>
             </Sheet>
             
-            <a href="/" className="text-2xl font-bold tracking-tight">
-              LOGO
+            <a href="/" className="flex items-center">
+              <img src={shopifyLogo} alt="Store Logo" className="h-10 w-10" />
             </a>
           </div>
 

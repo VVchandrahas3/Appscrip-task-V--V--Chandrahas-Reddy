@@ -78,8 +78,8 @@ const Index = () => {
                 DISCOVER OUR PRODUCTS
               </h1>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus
-                scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.
+                Curated collections crafted with care. Each piece tells a story of artistry, 
+                sustainability, and timeless design. Shop consciously, live beautifully.
               </p>
             </div>
           </section>
